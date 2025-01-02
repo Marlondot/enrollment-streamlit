@@ -4,7 +4,7 @@ Como prueba de concepto se espera usar [streamlit](https://streamlit.io/) como u
 
 ## ¿Qué tipo de funcionalidades?
 
-Como primera idea, podemos imaginar la funcionalidad de un contador, en la que el usuario introduce un número entero y al pulsar un botón de guardar dicho dato se envía a una base de datos que guarda la fecha en la que ocurrió el guardado, y la identificación asociada. 
+Como primera idea, podemos imaginar la funcionalidad de un contador, en la que el usuario introduce un número entero y al pulsar un botón de guardar dicho dato se envía a una base de datos que guarda la fecha en la que ocurrió el guardado, y el número asociado. 
 
 A pesar de que en un principio suene básico, esto podría funcionar como base para un sistema que guarde asistencias dados números de identificación.
 
