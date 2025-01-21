@@ -28,3 +28,7 @@ Para pruebas locales se puede crear una [conexión local MySQL](https://github.c
 Además para probar con una base de datos en nube se puede usar la [capa gratuita de MongoDB](https://www.mongodb.com/pricing) 
 
 También se pueden buscar otras maneras de hosting para bases de datos en [foros](https://www.reddit.com/r/webdev/comments/vc2hpc/any_websites_where_i_can_host_sqlite_db_for_free/), la  idea es no cerrarse a explorar
+
+## Tareas
+
+[] Primera tarea
