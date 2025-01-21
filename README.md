@@ -31,4 +31,4 @@ También se pueden buscar otras maneras de hosting para bases de datos en [foros
 
 ## Tareas
 
-- [ ] Primera tarea
+- [x] Primera tarea
