@@ -39,3 +39,25 @@ También se pueden buscar otras maneras de hosting para bases de datos en [foros
 
 Vamos a manejar un flujo sencillo de PRs, en el que cada nueva feature o cambio será hecho a partir de una rama sacada desde master (lo más común es que en el flujo existan la rama de develop y de master, pero para este caso vamos a obviarlo), y para hacer un merge a master vamos a hacer peer review a los cambios introducidos, proponer cambios o dar sugerencias. 
 
+## Cómo correr VENV
+
+A la hora de usar python entre proyectos lo ideal es usar un ambiente virtual o virtual environment
+
+Para crear y activar el ambiente virtual se tienen que usar los siguientes comandos en la terminal:
+
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+Luego dentro de la misma terminal se notará entre paréntesis un "venv" que es el nombre de nuestro ambiente.
+
+A continuación usaremos el siguiente comando para instalar en el ambiente todas las dependencias necesarias para el proyecto:
+
+```bash
+pip install -r "requirements.txt"
+```
+
+Cada vez que se agregue o necesita una nueva dependencia esta se debe añadir al archivo de requerimientos de proyecto, que en este caso es "requirements.txt"
+
+En caso de que haya una diferencia de dependencias no olvidar instalar nuevamente las dependencias con el comando (siempre que se actualice este archivo)
